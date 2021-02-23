@@ -1,10 +1,6 @@
 class UsersController < ApplicationController
-    def index
-
-    end
-
     def new
-
+        @user = User.new
     end
 
     def create
@@ -19,7 +15,7 @@ class UsersController < ApplicationController
 
     end
 
-    def updated
+    def update
 
     end
 
